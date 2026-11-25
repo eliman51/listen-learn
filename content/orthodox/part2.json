@@ -1,0 +1,96 @@
+[
+{"id":"con","n":4,"title":"Constantine and the Peace of the Church","era":"303 to 337","segs":[
+ {"id":"con-s1","title":"The Great Persecution","text":"In 303 the emperor Diocletian began the longest and widest persecution the Church had known. He was urged on by Galerius, his deputy in the East, who doubted the loyalty of Christian soldiers. Among the martyrs the Church honors from these years are Saint George, Saint Katherine of Alexandria, Saint Panteleimon, and Saint Demetrius of Thessalonica. Diocletian stepped down in 305, and Galerius carried on the persecution until his deathbed in 311, when he asked the Christians to pray for him.","cards":[
+  {"id":"con-01","t":1,"q":"In what year did Diocletian begin the Great Persecution?","a":"303.","src":["o4a"],"rq":"What began in the year 303?","ra":"The Great Persecution under Diocletian."},
+  {"id":"con-02","t":2,"q":"Who urged Diocletian to persecute the Church?","a":"Galerius, his deputy in the East.","src":["o4a"]},
+  {"id":"con-03","t":2,"q":"Name three great martyrs of the Diocletian persecution.","a":"Saint George, Saint Katherine of Alexandria, and Saint Demetrius of Thessalonica. Saint Panteleimon is another.","src":["o4a"]}
+ ]},
+ {"id":"con-s2","title":"In this sign, conquer","text":"Constantine was proclaimed emperor at York in Britain in 306. In 312 he marched on Rome against Maxentius. Before the battle he saw a vision of the Cross with the words, In this sign, conquer. He won at the Milvian Bridge. In February 313 he and Licinius met at Milan and gave Christians freedom of worship and the return of their property. In 324 Constantine defeated Licinius and ruled alone. In 330 he dedicated Constantinople as the new capital. His mother, Saint Helen, found the True Cross near Golgotha. He died in 337, baptized on his deathbed. The Church honors him as Equal to the Apostles, with Saint Helen, on May 21.","cards":[
+  {"id":"con-04","t":1,"q":"In what year did Constantine win the Battle of the Milvian Bridge?","a":"312.","src":["o4a"],"rq":"What happened in 312?","ra":"Constantine saw the vision of the Cross and won the Battle of the Milvian Bridge."},
+  {"id":"con-05","t":1,"q":"What did Constantine see before the Battle of the Milvian Bridge?","a":"A vision of the Cross with the words: In this sign, conquer.","src":["o4a","oqa"]},
+  {"id":"con-06","t":1,"q":"What was the Edict of Milan, and when was it issued?","a":"The agreement of Constantine and Licinius in February 313 that gave Christians freedom of worship and the return of confiscated property.","src":["o4a","b-milan"],"rq":"What happened in 313?","ra":"The Edict of Milan gave Christians freedom of worship.","hook":"313 comes one year after the Milvian Bridge in 312, and twelve years before Nicaea in 325."},
+  {"id":"con-07","t":1,"q":"In what year was Constantinople dedicated as the new capital?","a":"330.","src":["o4a"]},
+  {"id":"con-08","t":1,"q":"In what year did Constantine become sole emperor of East and West?","a":"324, after defeating Licinius.","src":["o4a"]},
+  {"id":"con-09","t":2,"q":"Where and when was Constantine first proclaimed emperor?","a":"At York in Britain, in 306.","src":["o4a"]},
+  {"id":"con-10","t":2,"q":"When did Constantine die, and who baptized him?","a":"He died in 337. He was baptized on his deathbed by Eusebius of Nicomedia.","src":["o4a","o4c"]},
+  {"id":"con-11","t":2,"q":"What did Saint Helen, the mother of Constantine, find near Golgotha?","a":"The True Cross.","src":["o4a"]},
+  {"id":"con-12","t":2,"q":"How does the Orthodox Church honor Constantine, and on what day?","a":"As Saint Constantine the Great, Equal to the Apostles, together with Saint Helen, on May 21.","src":["o4a"]},
+  {"id":"con-13","t":2,"q":"What weekly change did Constantine make that still shapes the calendar?","a":"He made Sunday a weekly holiday.","src":["o4a","oqa"]}
+ ]},
+ {"id":"con-s3","title":"Symphonia and the Donatists","text":"The Orthodox ideal for Church and empire is called symphonia: the Church cares for souls, the emperor for the realm, and neither rules the other. Peace from outside did not mean peace within. In North Africa the Donatists rejected Caecilian, the lawful bishop of Carthage, partly because he allowed repentance for those who lapsed under Diocletian. A commission at Rome under Pope Miltiades ruled for Caecilian. So did the Council of Arles in Gaul in 314. Constantine tried force from 316 to 321, which only gave the Donatists the air of martyrs. The schism wounded the African Church for centuries.","cards":[
+  {"id":"con-14","t":1,"q":"What does the Orthodox ideal of symphonia mean?","a":"Church and state working in harmony: the Church cares for souls and the emperor for the realm, and neither rules the other.","src":["o4a","o6a"]},
+  {"id":"con-15","t":2,"q":"What was the Donatist schism about?","a":"Rigorists in North Africa rejected Bishop Caecilian of Carthage, partly because he allowed repentance for those who lapsed under Diocletian.","src":["o4b"]},
+  {"id":"con-16","t":2,"q":"Which council in Gaul ruled against the Donatists, and in what year?","a":"The Council of Arles, in 314.","src":["o4b"]}
+ ]}
+]},
+{"id":"n1","n":5,"title":"First Council: Nicaea, 325","era":"325","council":1,"segs":[
+ {"id":"n1-s1","title":"Arius and his teaching","text":"Arius was a presbyter of Alexandria. Before 318 he began to teach that the Word, the Son of God, is not truly God. He said the Son is a created being, made from nothing, the first and greatest of creatures. His bishop, Saint Alexander of Alexandria, tried to correct him. Arius refused and sought allies. The strongest was Eusebius, bishop of Nicomedia, his old classmate. The Church heard in this teaching a direct attack on Scripture and on her worship of Christ.","cards":[
+  {"id":"n1-01","t":1,"q":"What did Arius teach about the Son of God?","a":"That the Son is a created being, the first and greatest creature, and not truly God.","src":["o4c","b-nic1"]},
+  {"id":"n1-02","t":1,"q":"Who was Arius?","a":"A presbyter of Alexandria who began teaching his heresy before 318.","src":["o4c","b-nic1"]},
+  {"id":"n1-03","t":2,"q":"Which bishop of Alexandria first opposed Arius?","a":"Saint Alexander of Alexandria.","src":["o4c"]},
+  {"id":"n1-04","t":2,"q":"Who was the most powerful ally of Arius among the bishops?","a":"Eusebius of Nicomedia.","src":["o4c"]}
+ ]},
+ {"id":"n1-s2","title":"The council meets","text":"After Constantine became sole emperor he learned of the quarrel. On the advice of Saint Hosius, a bishop from Spain, he called a council. It opened on May 20, 325, at Nicaea, near Nicomedia. Tradition counts 318 bishops, among them Saint Nicholas of Myra and Saint Spyridon. Pope Sylvester of Rome sent legates. Athanasius came as a young deacon with Bishop Alexander. The council condemned Arius. It confessed the Son as true God of true God, begotten, not made, of one essence with the Father. The Greek word for of one essence is homoousios. This is the First Ecumenical Council.","cards":[
+  {"id":"n1-05","t":1,"q":"In what year did the First Ecumenical Council meet, and where?","a":"In 325, at Nicaea.","src":["o4d","b-nic1","oct"],"rq":"What happened in the year 325?","ra":"The First Ecumenical Council met at Nicaea and condemned Arianism.","hook":"325 is twelve years after the Edict of Milan in 313."},
+  {"id":"n1-06","t":1,"q":"Which emperor called the First Ecumenical Council?","a":"Constantine the Great.","src":["o4d","b-nic1"]},
+  {"id":"n1-07","t":1,"q":"Which heresy did the Council of Nicaea condemn?","a":"Arianism.","src":["o4d","b-nic1","ocs"]},
+  {"id":"n1-08","t":1,"q":"What Greek word did Nicaea use for the Son's relation to the Father, and what does it mean?","a":"Homoousios, meaning of one essence with the Father.","src":["o4d","b-homo"]},
+  {"id":"n1-09","t":1,"q":"According to tradition, how many bishops attended Nicaea?","a":"318.","src":["o4d","ocs","ct"],"note":"318 is the traditional number. Britannica's article gives no figure."},
+  {"id":"n1-10","t":1,"q":"How does the Creed of Nicaea describe the Son?","a":"True God of true God, begotten, not made, of one essence with the Father, through whom all things were made.","src":["o4d"]},
+  {"id":"n1-11","t":2,"q":"On what date did the Council of Nicaea open?","a":"May 20, 325.","src":["o4d","w-nic1"]},
+  {"id":"n1-12","t":2,"q":"Which two beloved wonderworking bishops are remembered as attending Nicaea?","a":"Saint Nicholas of Myra and Saint Spyridon of Tremithus.","src":["o4d"]},
+  {"id":"n1-13","t":2,"q":"In what role did Saint Athanasius attend Nicaea?","a":"As a deacon of the Church of Alexandria, serving Bishop Alexander.","src":["o4e","b-ath"]},
+  {"id":"n1-14","t":2,"q":"Which bishop advised Constantine to call the council?","a":"Saint Hosius, a bishop from Spain.","src":["o4d"]},
+  {"id":"n1-15","t":2,"q":"Did the bishop of Rome attend Nicaea in person?","a":"No. Pope Sylvester sent legates.","src":["b-nic1"]}
+ ]},
+ {"id":"n1-s3","title":"Canons and Pascha","text":"Nicaea also issued twenty canons, rules for Church life. Canon 6 confirmed the regional authority of the great sees: Alexandria over Egypt, Libya, and Pentapolis, with Rome and Antioch keeping their own regions. The council directed that all the Churches keep Pascha at the same time, which helped end the Quartodeciman custom. Canon 20 forbids penitential kneeling at the Sunday Liturgy and through the season from Pascha to Pentecost. The Church remembers the Fathers of Nicaea on May 29, and again on the seventh Sunday after Pascha.","cards":[
+  {"id":"n1-16","t":2,"q":"How many canons did Nicaea issue?","a":"Twenty.","src":["ocs"]},
+  {"id":"n1-17","t":2,"q":"What did canon 6 of Nicaea confirm?","a":"The regional authority of the great sees: Alexandria over Egypt, Libya, and Pentapolis, with Rome and Antioch keeping their own regions.","src":["o4d","b-nic1"]},
+  {"id":"n1-18","t":2,"q":"What did Nicaea decide about Pascha?","a":"That all the Churches should keep Pascha at the same time, which helped end the Quartodeciman practice.","src":["o4d","o2e","b-nic1"],"note":"Britannica adds that a fully uniform date was not achieved in practice."},
+  {"id":"n1-19","t":3,"q":"What does canon 20 of Nicaea forbid?","a":"Penitential kneeling at the Sunday Liturgy and during the season from Pascha to Pentecost.","src":["o4d"]},
+  {"id":"n1-20","t":3,"q":"On what days does the Church commemorate the Fathers of the First Council?","a":"On May 29, and on the seventh Sunday after Pascha.","src":["ocs"]}
+ ]}
+]},
+{"id":"ath","n":6,"title":"Defending Nicaea: Athanasius and the Cappadocians","era":"325 to 381","segs":[
+ {"id":"ath-s1","title":"Athanasius against the world","text":"Nicaea did not end the struggle. For more than five decades emperors and bishops kept trying to water down its faith. The chief defender was Saint Athanasius. He became bishop of Alexandria in 328 and died in 373. For the faith of Nicaea he was exiled five times, under Constantine, twice under Constantius, under Julian, and under Valens. He wrote On the Incarnation, the Orations Against the Arians, and the Life of Saint Anthony. Near the end of his life his forgiving spirit toward former enemies helped bring the controversy to a close.","cards":[
+  {"id":"ath-01","t":1,"q":"How many times was Saint Athanasius exiled for defending Nicaea?","a":"Five times.","src":["o4e","b-ath"]},
+  {"id":"ath-02","t":1,"q":"In what year did Athanasius become bishop of Alexandria, and when did he die?","a":"He became bishop in 328 and died in 373.","src":["o4e","b-ath"]},
+  {"id":"ath-03","t":2,"q":"When did the first exile of Athanasius begin, and under whom?","a":"In 335, under Constantine.","src":["o4e","b-ath"],"note":"OCA gives 335. Britannica gives 336."},
+  {"id":"ath-04","t":2,"q":"Name three works of Saint Athanasius.","a":"On the Incarnation, the Life of Saint Anthony, and the Orations Against the Arians.","src":["b-ath","o4i"]},
+  {"id":"ath-05","t":2,"q":"How long did the Arian controversy continue after Nicaea?","a":"For more than five decades, until the Second Ecumenical Council in 381.","src":["o4e","o4g"]},
+  {"id":"ath-06","t":3,"q":"Under which emperors was Athanasius exiled?","a":"Constantine, Constantius twice, Julian, and Valens.","src":["b-ath"]}
+ ]},
+ {"id":"ath-s2","title":"New heresies and the Cappadocian Fathers","text":"In the middle of the fourth century two new errors appeared. The Macedonians, also called Pneumatomachians, which means fighters against the Spirit, said the Holy Spirit is a creature. Apollinaris taught that in Christ the divine Word took the place of a human soul, so that Christ was not fully human. Three Fathers from Cappadocia answered them: Saint Basil the Great, his brother Saint Gregory of Nyssa, and his friend Saint Gregory the Theologian. Basil wrote On the Holy Spirit and his monastic Rules. Gregory the Theologian answered Apollinaris in one line: what has not been assumed has not been healed.","cards":[
+  {"id":"ath-07","t":1,"q":"Name the three Cappadocian Fathers.","a":"Saint Basil the Great, his brother Saint Gregory of Nyssa, and his friend Saint Gregory the Theologian.","src":["o4g","o4f","b-basil"]},
+  {"id":"ath-08","t":1,"q":"What did the Macedonians, or Pneumatomachians, teach?","a":"That the Holy Spirit is a created being and not fully divine.","src":["o4f"]},
+  {"id":"ath-09","t":2,"q":"What does the name Pneumatomachians mean?","a":"Fighters against the Spirit.","src":["o4f"]},
+  {"id":"ath-10","t":1,"q":"What did Apollinaris teach?","a":"That the divine Word took the place of a human soul in Christ, so that Christ was not fully human.","src":["o4f"]},
+  {"id":"ath-11","t":1,"q":"What was Saint Gregory the Theologian's answer to Apollinaris?","a":"What has not been assumed has not been healed.","src":["o4f","o7b"]},
+  {"id":"ath-12","t":2,"q":"Which work of Saint Basil defends the divinity of the Holy Spirit?","a":"On the Holy Spirit.","src":["o4f"]},
+  {"id":"ath-13","t":2,"q":"When did Saint Basil the Great become bishop of Caesarea, and when did he die?","a":"He became bishop in 370 and died in 379.","src":["b-basil","o4f"]},
+  {"id":"ath-14","t":2,"q":"Which three saints bear the title, the Theologian?","a":"Saint John the Evangelist, Saint Gregory of Nazianzus, and Saint Symeon the New Theologian.","src":["o4f","o10a"]},
+  {"id":"ath-15","t":3,"q":"Who was the first Father to plainly call the Holy Spirit God?","a":"Saint Gregory the Theologian.","src":["o4f"]},
+  {"id":"ath-16","t":2,"q":"What kind of monastic life did the Rules of Saint Basil promote?","a":"Communal monasticism, each monastery under an abbot and the local bishop.","src":["o4f","b-basil"]}
+ ]}
+]},
+{"id":"c1","n":7,"title":"Second Council: Constantinople, 381","era":"381","council":2,"segs":[
+ {"id":"c1-s1","title":"Theodosius calls the council","text":"Theodosius the Great became emperor in the East in 379. He held the faith of Nicaea, and in February 380 he required it of his subjects. In 381 he called a council at Constantinople. About 150 bishops came, all from the East. Its leaders included Saint Gregory the Theologian, Saint Gregory of Nyssa, and Saint Meletius of Antioch. The council condemned every form of Arianism, condemned the Macedonians, and condemned Apollinaris. Later in the century Theodosius, advised by Saint Ambrose of Milan, made Christianity the religion of the state.","cards":[
+  {"id":"c1-01","t":1,"q":"In what year did the Second Ecumenical Council meet, and where?","a":"In 381, at Constantinople.","src":["o4g","b-con1","oct"],"rq":"What happened in 381?","ra":"The Second Ecumenical Council met at Constantinople and completed the Creed.","hook":"381 is 56 years after Nicaea, and exactly 50 years before Ephesus in 431."},
+  {"id":"c1-02","t":1,"q":"Which emperor called the Second Ecumenical Council?","a":"Theodosius the Great.","src":["o4g","b-con1"]},
+  {"id":"c1-03","t":1,"q":"How many bishops attended the Second Ecumenical Council?","a":"About 150, all from the East.","src":["b-con1","ocs"]},
+  {"id":"c1-04","t":1,"q":"Which three heresies did the council of 381 condemn?","a":"Arianism, Macedonianism, and Apollinarianism.","src":["o4g"]},
+  {"id":"c1-05","t":2,"q":"Name three leaders at the Second Ecumenical Council.","a":"Saint Gregory the Theologian, Saint Gregory of Nyssa, and Saint Meletius of Antioch.","src":["o4g"]},
+  {"id":"c1-06","t":2,"q":"When did Theodosius become emperor in the East, and what did his edict of February 380 require?","a":"He became emperor in 379. The edict required his subjects to hold the Nicene faith.","src":["o4g","b-theo"]},
+  {"id":"c1-07","t":2,"q":"Which emperor, advised by Saint Ambrose of Milan, made Christianity the religion of the state?","a":"Saint Theodosius the Great, who reigned from 379 to 395.","src":["o4a","b-theo"]}
+ ]},
+ {"id":"c1-s2","title":"The Creed completed, and New Rome","text":"The council's great work was the Creed. To the faith of Nicaea it added the section on the Holy Spirit, confessing his divinity. The result is the Nicene-Constantinopolitan Creed, which the Orthodox call the Symbol of Faith and recite at every Baptism and Divine Liturgy. Canon 2 told bishops to keep to their own regions. Canon 3 gave the bishop of Constantinople the prerogative of honor after the bishop of Rome, because Constantinople is New Rome. Pope Damasus rejected that canon. Yet East and West both came to receive this council as ecumenical. The Church remembers its Fathers on May 22.","cards":[
+  {"id":"c1-08","t":1,"q":"What did the Second Council add to the Creed of Nicaea?","a":"The section confessing the divinity of the Holy Spirit, completing the Creed said today.","src":["o4g","b-con1","oct"]},
+  {"id":"c1-09","t":1,"q":"What is the full name of the Creed completed in 381, and what do the Orthodox call it?","a":"The Nicene-Constantinopolitan Creed, also called the Symbol of Faith.","src":["o4g","b-con1"]},
+  {"id":"c1-10","t":1,"q":"What did canon 3 of Constantinople say?","a":"The bishop of Constantinople has the prerogative of honor after the bishop of Rome, because Constantinople is New Rome.","src":["o4g","b-con1"]},
+  {"id":"c1-11","t":2,"q":"How did Pope Damasus respond to canon 3?","a":"He rejected it, although the council itself came to be received as ecumenical in East and West.","src":["o4g","b-con1"]},
+  {"id":"c1-12","t":2,"q":"What did canon 2 of Constantinople require of bishops?","a":"That they not interfere in the affairs of other regions.","src":["o4g","ct"]},
+  {"id":"c1-13","t":3,"q":"How many canons does the Orthodox Church count from the Second Council?","a":"Seven.","src":["ocs","ct"]},
+  {"id":"c1-14","t":3,"q":"On what day does the Church commemorate the Fathers of the Second Council?","a":"May 22.","src":["ocs"]}
+ ]}
+]}
+]

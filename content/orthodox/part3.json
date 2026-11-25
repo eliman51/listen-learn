@@ -1,0 +1,80 @@
+[
+{"id":"gold","n":8,"title":"Monks, Preachers, and the West","era":"Fourth and fifth centuries","segs":[
+ {"id":"gold-s1","title":"The desert","text":"When persecution ended, many Christians went out to the desert to serve God alone. They called this life a white martyrdom, a bloodless daily dying to the passions. It began in Egypt. Saint Paul of Thebes is remembered as the first hermit. Saint Anthony the Great, who lived from about 250 to 356, is called the founder of monasticism, and Saint Athanasius wrote his Life. Saint Pachomius founded communal monasteries, the cenobitic life. In the West, Saint Benedict of Nursia later wrote a Rule that guided monks for five hundred years.","cards":[
+  {"id":"gold-01","t":1,"q":"Who is traditionally called the founder of monasticism, and when did he live?","a":"Saint Anthony the Great, from about 250 to 356.","src":["o4i"]},
+  {"id":"gold-02","t":1,"q":"Who founded communal, or cenobitic, monasticism in Egypt?","a":"Saint Pachomius.","src":["o4i"]},
+  {"id":"gold-03","t":2,"q":"Who wrote the Life of Saint Anthony, which spread monasticism widely?","a":"Saint Athanasius the Great.","src":["o4i","b-ath"]},
+  {"id":"gold-04","t":2,"q":"Who is remembered as the first desert hermit?","a":"Saint Paul of Thebes.","src":["o4i"]},
+  {"id":"gold-05","t":2,"q":"Why did the monks call their life a white martyrdom?","a":"Because it was a bloodless, daily dying to the passions.","src":["o4i"]},
+  {"id":"gold-06","t":3,"q":"Which Western monastic founder wrote a Rule that guided the West for about five hundred years?","a":"Saint Benedict of Nursia, who founded Monte Cassino.","src":["o4i","o6f"]}
+ ]},
+ {"id":"gold-s2","title":"Saint John Chrysostom","text":"John of Antioch, born around 347, preached so well that he was named Chrysostom, the golden mouth. In 398 he became archbishop of Constantinople. He preached against luxury and offended the empress Eudoxia. The Synod of the Oak condemned him in 403, and in 404 he was sent into exile. He died in 407 on a forced march, saying, Glory to God for all things. In 438 his relics came home to Constantinople in triumph. The Church honors him as her greatest preacher. The two chief Liturgies, of Saint Basil and Saint John Chrysostom, took their shape in this century.","cards":[
+  {"id":"gold-07","t":1,"q":"What does the name Chrysostom mean?","a":"Golden mouth.","src":["o4j"]},
+  {"id":"gold-08","t":1,"q":"In what year did Saint John Chrysostom become archbishop of Constantinople?","a":"398.","src":["o4j","b-chrys"]},
+  {"id":"gold-09","t":1,"q":"In what year did Saint John Chrysostom die, and how?","a":"In 407, in exile, on a forced march.","src":["o4j","b-chrys"]},
+  {"id":"gold-10","t":2,"q":"What were the last words of Saint John Chrysostom?","a":"Glory to God for all things.","src":["o4j"]},
+  {"id":"gold-11","t":2,"q":"Which empress did Chrysostom's preaching against luxury offend?","a":"The empress Eudoxia.","src":["o4j","b-chrys"]},
+  {"id":"gold-12","t":3,"q":"Which synod condemned Chrysostom in 403?","a":"The Synod of the Oak.","src":["b-chrys"]},
+  {"id":"gold-13","t":2,"q":"In what year were Chrysostom's relics brought back to Constantinople?","a":"438.","src":["o4j","b-chrys"]},
+  {"id":"gold-14","t":2,"q":"Which two Liturgies took their main shape in the fourth century?","a":"The Divine Liturgies of Saint Basil the Great and Saint John Chrysostom.","src":["o4h"]}
+ ]},
+ {"id":"gold-s3","title":"Augustine and the Latin West","text":"In the Latin West the towering figure was Saint Augustine, bishop of Hippo in North Africa, who lived from 354 to 430. He wrote the Confessions and the City of God. He fought the Donatists, the Manicheans, and Pelagius, a British monk who taught that people can save themselves by their own virtue without grace. Against Pelagius, Augustine went too far the other way. The Orthodox teaching is synergism: grace and human freedom work together. Saint John Cassian, trained in Egypt, taught this in the West. In 476 Germanic rulers took over the government in Rome, and East and West began to drift apart.","cards":[
+  {"id":"gold-15","t":1,"q":"When did Saint Augustine of Hippo live?","a":"From 354 to 430.","src":["b-aug","o5h"]},
+  {"id":"gold-16","t":2,"q":"Name Saint Augustine's two most famous books.","a":"The Confessions and the City of God.","src":["o5h","b-aug"]},
+  {"id":"gold-17","t":1,"q":"What did Pelagius teach?","a":"That people can save themselves by their own virtue, without divine grace.","src":["o5h"]},
+  {"id":"gold-18","t":1,"q":"What is synergism, the Orthodox teaching on grace and freedom?","a":"God's grace and human free will work together in salvation. The will was damaged by the Fall but not destroyed.","src":["o5h"]},
+  {"id":"gold-19","t":2,"q":"Which Western monk, trained in Egypt, taught synergism in his Conferences?","a":"Saint John Cassian.","src":["o5h"]},
+  {"id":"gold-20","t":2,"q":"Which teachings of Augustine does the Orthodox tradition find problematic?","a":"His extreme view of the fallen human will, which led toward predestination, and his speculation on the Trinity that helped prepare the filioque.","src":["o5h"]},
+  {"id":"gold-21","t":1,"q":"In what year did Germanic rulers take over the Western Roman Empire?","a":"476.","src":["o5h","o8b"]}
+ ]}
+]},
+{"id":"eph","n":9,"title":"Third Council: Ephesus, 431","era":"431","council":3,"segs":[
+ {"id":"eph-s1","title":"Nestorius and the Theotokos","text":"Nestorius was bishop of Constantinople from 428 to 431. He refused to call the Virgin Mary Theotokos, a title that means the one who gave birth to God. He said the one born of Mary was a man in whom the Word of God dwelt, and he offered the title Christotokos instead. Saint Cyril, bishop of Alexandria, answered him, with the support of Pope Celestine of Rome. Cyril's point was about Christ. The Son of God, begotten of the Father before all ages, and the Son of Mary are one and the same. So Mary is truly the Mother of God.","cards":[
+  {"id":"eph-01","t":1,"q":"What does the title Theotokos mean?","a":"The one who gave birth to God.","src":["o5a"]},
+  {"id":"eph-02","t":1,"q":"What did Nestorius teach?","a":"That Mary should be called Christotokos, not Theotokos, because the one born of her was a man in whom the Word dwelt.","src":["o5a","b-nest"]},
+  {"id":"eph-03","t":1,"q":"Who led the Orthodox opposition to Nestorius?","a":"Saint Cyril of Alexandria, supported by Pope Celestine of Rome.","src":["o5a","b-cyril"]},
+  {"id":"eph-04","t":1,"q":"Why does the title Theotokos matter for what we believe about Christ?","a":"Because the Son of God and the Son of Mary are one and the same person.","src":["o5a"]},
+  {"id":"eph-05","t":2,"q":"Which see did Nestorius hold, and in what years?","a":"He was bishop of Constantinople from 428 to 431.","src":["o5a"]}
+ ]},
+ {"id":"eph-s2","title":"The council and the peace of 433","text":"In 431 the emperor Theodosius the Second called a council at Ephesus. Saint Cyril presided. Nestorius would not yield, and the council condemned him. John, bishop of Antioch, arrived four days late with his bishops and at first refused the verdict. Two years later, in 433, Cyril and John signed the Formulary of Peace. It kept the condemnation of Nestorius and honored the concern of Antioch for the full humanity of Christ. Canon 7 of Ephesus forbids composing a different faith from the Creed. Canon 8 protects the independence of the Church of Cyprus. The Church counts about 200 Fathers and keeps their feast on September 9.","cards":[
+  {"id":"eph-06","t":1,"q":"In what year did the Third Ecumenical Council meet, and where?","a":"In 431, at Ephesus.","src":["o5b","oct","ocs"],"rq":"What happened in 431?","ra":"The Third Ecumenical Council met at Ephesus, condemned Nestorius, and confessed Mary as Theotokos.","hook":"431 is exactly 50 years after 381, and 20 years before Chalcedon in 451."},
+  {"id":"eph-07","t":1,"q":"Which emperor called the Council of Ephesus?","a":"Theodosius the Second.","src":["o5b","w-eph"]},
+  {"id":"eph-08","t":1,"q":"What did the Council of Ephesus decide?","a":"It condemned Nestorius and confessed that Christ is one person, so that Mary is truly Theotokos.","src":["o5b","oct","ocs"]},
+  {"id":"eph-09","t":1,"q":"What agreement in 433 reconciled Cyril of Alexandria and John of Antioch?","a":"The Formulary of Peace.","src":["o5b","b-cyril"]},
+  {"id":"eph-10","t":2,"q":"Which bishop arrived late at Ephesus and at first refused the verdict of the council?","a":"John of Antioch.","src":["o5b","b-cyril"]},
+  {"id":"eph-11","t":2,"q":"What does canon 7 of Ephesus forbid, and why do the Orthodox cite it?","a":"Composing a different faith from the Creed. The Orthodox cite it against adding the filioque.","src":["o5g"]},
+  {"id":"eph-12","t":3,"q":"What did canon 8 of Ephesus protect?","a":"The independence of the Church of Cyprus from Antioch.","src":["o5g"]},
+  {"id":"eph-13","t":2,"q":"About how many Fathers does the Church count at Ephesus, and when is their feast?","a":"About 200. Their feast is September 9.","src":["ocs","w-eph"]},
+  {"id":"eph-14","t":3,"q":"On what dates did the Council of Ephesus sit?","a":"From June 22 to July 31, 431.","src":["w-eph"]}
+ ]}
+]},
+{"id":"chal","n":10,"title":"Fourth Council: Chalcedon, 451","era":"451","council":4,"segs":[
+ {"id":"chal-s1","title":"The Robber Council","text":"Saint Cyril died in 444. His successor Dioscorus pushed Cyril's phrase, one nature of the Word of God incarnate, to an extreme. His ally Eutyches said the humanity of Christ is not like ours. In 449 a council at Ephesus, backed by the emperor Theodosius the Second, upheld Eutyches and deposed his opponents. Pope Leo the Great had sent a letter, the Tome of Leo, addressed to Flavian of Constantinople, teaching two complete natures in Christ. The council would not let it be read. Leo called the gathering a council of robbers. Then in July 450 the emperor died after a fall from his horse. His sister Pulcheria and her consort Marcian took the throne.","cards":[
+  {"id":"chal-01","t":1,"q":"What was the Robber Council, and when did it meet?","a":"A council at Ephesus in 449, led by Dioscorus of Alexandria, that upheld Eutyches. Pope Leo called it a council of robbers.","src":["o5c","enc-chal"]},
+  {"id":"chal-02","t":1,"q":"What did Eutyches teach?","a":"That the humanity of Christ is not like ours, so that his divinity all but swallowed his humanity.","src":["o5c"]},
+  {"id":"chal-03","t":1,"q":"What is the Tome of Leo?","a":"A letter of Pope Leo the Great, sent in 449 to Flavian of Constantinople, teaching the two complete natures of Christ.","src":["o5c","b-leo"]},
+  {"id":"chal-04","t":2,"q":"What event in July 450 opened the way to Chalcedon?","a":"The emperor Theodosius the Second died after a fall from his horse. His sister Pulcheria and her consort Marcian took the throne.","src":["o5c","enc-chal"]}
+ ]},
+ {"id":"chal-s2","title":"The Definition of Chalcedon","text":"In 451 Marcian and Pulcheria called a council at Chalcedon, across the water from Constantinople. It was the largest of the seven. Tradition counts 630 bishops, and modern references about 520. The Fathers held together Cyril's teaching, the concern of Antioch, and the Tome of Leo. When the Tome was read they cried, Peter has spoken through Leo, yet they examined it before receiving it. The Definition confesses one and the same Christ, perfect God and perfect man, one person in two natures, united without confusion, without change, without division, without separation. Canon 28 gave Constantinople, the New Rome, equal privileges with Old Rome. Rome rejected that canon.","cards":[
+  {"id":"chal-05","t":1,"q":"In what year did the Fourth Ecumenical Council meet, and where?","a":"In 451, at Chalcedon, across the water from Constantinople.","src":["o5d","b-chal","oct"],"rq":"What happened in 451?","ra":"The Fourth Ecumenical Council met at Chalcedon and defined that Christ is one person in two natures.","hook":"451 is 20 years after Ephesus, and two years after the Robber Council of 449."},
+  {"id":"chal-06","t":1,"q":"Who convened the Council of Chalcedon?","a":"The emperor Marcian and the empress Pulcheria.","src":["o5d","b-chal"]},
+  {"id":"chal-07","t":1,"q":"What does the Definition of Chalcedon confess about Christ?","a":"One person in two natures, divine and human, perfect God and perfect man.","src":["o5d","oct","b-chal"]},
+  {"id":"chal-08","t":1,"q":"Give the four phrases of Chalcedon on how the two natures are united.","a":"Without confusion, without change, without division, without separation.","src":["o5d"]},
+  {"id":"chal-09","t":1,"q":"Which heresy did Chalcedon reject?","a":"Monophysitism, the teaching of Eutyches that Christ has only one nature.","src":["ocs","b-chal","o5c"]},
+  {"id":"chal-10","t":2,"q":"What did the bishops cry out when the Tome of Leo was read?","a":"Peter has spoken through Leo.","src":["o5d"],"note":"OCA stresses that the council examined the Tome before receiving it, and did not treat it as the final word."},
+  {"id":"chal-11","t":2,"q":"How many bishops attended Chalcedon?","a":"Tradition says 630. Modern references estimate about 520. It was the largest of the seven councils.","src":["o5d","ocs","b-chal","enc-chal"],"note":"Sources differ. The New Catholic Encyclopedia estimates 350 to 360 bishops present in person."},
+  {"id":"chal-12","t":1,"q":"What did canon 28 of Chalcedon grant?","a":"Equal privileges for Constantinople, the New Rome, with Old Rome. Rome rejected the canon.","src":["o5g","o7e"]},
+  {"id":"chal-13","t":2,"q":"Which two sees did Chalcedon recognize as patriarchates?","a":"Constantinople and Jerusalem.","src":["b-chal"]},
+  {"id":"chal-14","t":3,"q":"On what dates did Chalcedon sit, and when is the feast of its Fathers?","a":"From October 8 to November 1, 451. The feast is July 16.","src":["w-chal","enc-chal","ocs"]},
+  {"id":"chal-15","t":3,"q":"How many canons does the Orthodox Church count from Chalcedon?","a":"Thirty.","src":["ocs"]}
+ ]},
+ {"id":"chal-s3","title":"After Chalcedon","text":"Many of Cyril's strictest followers rejected Chalcedon. They held to his phrase, one nature of the Word of God incarnate, and were called Monophysites. The Orthodox answer is that Cyril meant one person, which is exactly what Chalcedon taught. In 482 the emperor Zeno and Patriarch Acacius issued the Henotikon, an edict of union that avoided saying one nature or two. Rome broke communion in 484, and the Acacian Schism lasted until 518, when the emperor Justin the First ended it. The Churches that never accepted Chalcedon are today the Oriental Orthodox: Coptic, Ethiopian, Syrian, Armenian, and the Malankara Church of India.","cards":[
+  {"id":"chal-16","t":1,"q":"Which Churches today descend from those who rejected Chalcedon?","a":"The Oriental Orthodox Churches: Coptic, Ethiopian, Syrian, Armenian, and the Malankara Church of India.","src":["o6c"]},
+  {"id":"chal-17","t":2,"q":"Which phrase of Saint Cyril did the opponents of Chalcedon insist on?","a":"One nature of the Word of God incarnate.","src":["o5e","o5c"]},
+  {"id":"chal-18","t":2,"q":"How does the Orthodox Church understand Cyril's phrase, one nature of the Word incarnate?","a":"As meaning one person, or hypostasis, which is exactly what Chalcedon confessed.","src":["o5e","o6b"]},
+  {"id":"chal-19","t":2,"q":"What was the Henotikon, and when was it issued?","a":"An edict of union issued in 482 by the emperor Zeno with Patriarch Acacius. It avoided saying one nature or two.","src":["o5f"]},
+  {"id":"chal-20","t":2,"q":"What was the Acacian Schism?","a":"A break between Rome and the East from 484 to 518, after Pope Felix rejected the Henotikon.","src":["o5f","o6a"]},
+  {"id":"chal-21","t":3,"q":"Which emperor ended the Acacian Schism in 518?","a":"Justin the First, the uncle of Justinian.","src":["o6a"]}
+ ]}
+]}
+]

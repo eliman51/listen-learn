@@ -1,0 +1,95 @@
+[
+{"id":"ap","n":1,"title":"The Apostolic Church","era":"First century","segs":[
+ {"id":"ap-s1","title":"From Pentecost to the nations","text":"After the Ascension of Christ, the Holy Spirit came down on the disciples at Pentecost, as told in Acts chapter 2. Christ had chosen the Twelve and the Seventy to lead his Church, and Saint Matthias took the place of Judas. Saint Paul's journeys, recorded in Acts chapters 13 through 28, planted churches across Asia Minor and Greece. Communities soon stood in Syria, Egypt, Armenia, and even India. At Antioch the followers of Christ were first called Christians. They wrote in Greek, the common tongue of the Empire.","cards":[
+  {"id":"ap-01","t":1,"q":"In which city were the followers of Christ first called Christians?","a":"Antioch.","src":["o1a"]},
+  {"id":"ap-02","t":2,"q":"Who was chosen to replace Judas among the Twelve?","a":"Saint Matthias.","src":["o1a"]},
+  {"id":"ap-03","t":2,"q":"Which chapters of Acts record the missionary journeys of Saint Paul?","a":"Acts chapters 13 through 28.","src":["o1a"]},
+  {"id":"ap-04","t":1,"q":"In what language were the New Testament books written, and why?","a":"Greek, the common language of the Roman Empire.","src":["o1a","oqa"]},
+  {"id":"ap-05","t":3,"q":"Until about when did the Church in Rome itself worship in Greek?","a":"Until the beginning of the third century.","src":["o1a"]}
+ ]},
+ {"id":"ap-s2","title":"The Council of Jerusalem","text":"The first great question was whether Gentiles had to keep the Law of Moses to enter the Church. The Holy Spirit had already fallen on the Roman centurion Cornelius and his household while Saint Peter was still preaching. Around the year 49 the Apostles met in Jerusalem, as told in Acts chapter 15. Saint James, the Brother of the Lord and first bishop of Jerusalem, led the gathering. The decision: Gentile converts are not bound by the Law of Moses, including circumcision. The Orthodox Church sees this meeting as the prototype of every later council.","cards":[
+  {"id":"ap-06","t":1,"q":"About what year did the Council of Jerusalem meet, and where is it recorded?","a":"Around the year 49. It is recorded in Acts chapter 15.","src":["o1b","oqa"],"note":"The date is approximate."},
+  {"id":"ap-07","t":1,"q":"What did the Council of Jerusalem decide?","a":"Gentile converts are not bound by the Law of Moses, including circumcision.","src":["o1b","oqa"]},
+  {"id":"ap-08","t":1,"q":"Who led the Council of Jerusalem?","a":"Saint James, the Brother of the Lord, the first bishop of Jerusalem.","src":["o1b"]},
+  {"id":"ap-09","t":1,"q":"Why is the Council of Jerusalem so important for later Church history?","a":"It is the prototype of all later Church councils.","src":["o1b","oqa"]},
+  {"id":"ap-10","t":2,"q":"Which Roman centurion's conversion showed that Gentiles could receive the Holy Spirit?","a":"Saint Cornelius, in Acts chapters 10 and 11.","src":["o1b"]}
+ ]},
+ {"id":"ap-s3","title":"Martyrdom and the fall of the Temple","text":"Saints Peter and Paul were martyred in Rome under the emperor Nero, around the year 67. Their shared feast is June 29. All of the Twelve except Saint John died as martyrs. The Jewish revolt against Rome began in the year 66, and in the year 70 the Roman army destroyed the Temple in Jerusalem, which the Church reads as the fulfillment of Christ's own prophecy. New believers entered the Church through repentance and Baptism, the laying on of hands, and the Eucharist. By the end of the first century the faith, the structure, and the worship of the Church were firmly in place.","cards":[
+  {"id":"ap-11","t":1,"q":"Under which emperor were Saints Peter and Paul martyred in Rome, and about when?","a":"Under Nero, around the year 67.","src":["o1a"],"note":"The date is approximate."},
+  {"id":"ap-12","t":2,"q":"What is the shared feast day of Saints Peter and Paul?","a":"June 29.","src":["o1a"]},
+  {"id":"ap-13","t":1,"q":"In what year did the Roman army destroy the Temple in Jerusalem?","a":"The year 70.","src":["o1b"],"rq":"What happened in Jerusalem in the year 70?","ra":"The Roman army destroyed the Temple."},
+  {"id":"ap-14","t":2,"q":"Which of the Twelve Apostles did not die as a martyr?","a":"Saint John.","src":["o1a"]},
+  {"id":"ap-15","t":3,"q":"In what year did the Jewish revolt against Rome begin?","a":"The year 66.","src":["o1a"]},
+  {"id":"ap-16","t":2,"q":"How did a new believer enter the Church in the first century?","a":"Through repentance and Baptism, then the laying on of hands for the gift of the Holy Spirit, then the Eucharist.","src":["o1b"]}
+ ]}
+]},
+{"id":"c2","n":2,"title":"Martyrs, Fathers, and First Heresies","era":"Second century","segs":[
+ {"id":"c2-s1","title":"An illegal religion","text":"In the second century Roman law held that it was not lawful to be a Christian. Christians prayed for the civil authorities, but they refused to honor the emperor as lord and god. Pliny the Younger, governor of Bithynia, wrote to the emperor Trajan to ask how to treat them. Trajan answered that Christians should not be hunted down, but those accused who refused to renounce the faith were to be executed. Persecution was local and came in waves. Around the year 177 a famous group of martyrs suffered at Lyons and Vienne in Gaul.","cards":[
+  {"id":"c2-01","t":1,"q":"Why did Rome treat Christians as criminals in the second century?","a":"They refused to honor the emperor as lord and god, although they prayed for the civil authorities.","src":["o2a","oqa"]},
+  {"id":"c2-02","t":2,"q":"Which Roman governor wrote to the emperor Trajan about how to treat Christians?","a":"Pliny the Younger, governor of Bithynia.","src":["o2a"]},
+  {"id":"c2-03","t":2,"q":"What was Trajan's policy toward Christians?","a":"They were not to be hunted down, but those accused who refused to renounce the faith were to be executed.","src":["o2a"]},
+  {"id":"c2-04","t":2,"q":"Around what year did the martyrs of Lyons and Vienne suffer in Gaul?","a":"Around the year 177.","src":["o2a"]}
+ ]},
+ {"id":"c2-s2","title":"The Apostolic Fathers","text":"The Apostolic Fathers wrote in the years right after the Apostles. The three best known are Saint Clement of Rome, Saint Ignatius of Antioch, and Saint Polycarp of Smyrna. Ignatius was martyred in Rome under Trajan, around the year 110. On the road he wrote seven letters. He is the first to call the Church catholic, meaning full, complete, and whole, and he describes one bishop in each church with presbyters and deacons. Polycarp died a martyr around 157, and the account of his death shows Christians already honoring the relics of the martyrs. The Didache is a short manual of Church life from the same age.","cards":[
+  {"id":"c2-05","t":1,"q":"Name the three best known Apostolic Fathers.","a":"Saint Clement of Rome, Saint Ignatius of Antioch, and Saint Polycarp of Smyrna.","src":["o2b"]},
+  {"id":"c2-06","t":1,"q":"About when was Saint Ignatius of Antioch martyred, and where?","a":"Around the year 110, in Rome, under the emperor Trajan.","src":["o2b","b-ign"]},
+  {"id":"c2-07","t":2,"q":"How many letters did Saint Ignatius write on his way to martyrdom?","a":"Seven.","src":["b-ign"]},
+  {"id":"c2-08","t":1,"q":"Who was the first writer to call the Church catholic, and what does the word mean?","a":"Saint Ignatius of Antioch. It means full, complete, and whole.","src":["o2f"]},
+  {"id":"c2-09","t":1,"q":"What threefold ministry does Saint Ignatius describe in each local church?","a":"One bishop, with presbyters and deacons.","src":["o2f","b-ign"]},
+  {"id":"c2-10","t":2,"q":"About when did Saint Polycarp of Smyrna die as a martyr?","a":"Around the year 157.","src":["o2b"],"note":"The date is approximate."},
+  {"id":"c2-11","t":2,"q":"What is the Didache?","a":"A short early manual of Christian living and Church practice, also called the Teaching of the Twelve Apostles.","src":["o2b","o2f"]},
+  {"id":"c2-12","t":3,"q":"What does the account of Polycarp's martyrdom show about early Christian practice?","a":"That Christians already venerated the martyrs and their relics.","src":["o2b"]}
+ ]},
+ {"id":"c2-s3","title":"The Apologists and Sunday worship","text":"The Apologists wrote to outsiders, often to the emperor himself, to explain and defend the faith. Such a defense is called an Apology. The leading Apologist was Saint Justin Martyr, the philosopher, who died around 165. In his First Apology, written around 155, chapter 67 describes Sunday worship: readings from the Apostles and Prophets, a sermon, prayers, the offering of bread and wine, the people's Amen, communion, and a collection for the needy. Saint Melito of Sardis wrote the poem On Pascha, with words that still echo in the hymns of Holy Friday.","cards":[
+  {"id":"c2-13","t":1,"q":"Who was the leading Apologist of the second century, and about when did he die?","a":"Saint Justin Martyr, the philosopher, who died around 165.","src":["o2c"]},
+  {"id":"c2-14","t":2,"q":"In the early Church, what is an Apology?","a":"A written defense and explanation of Christianity addressed to outsiders, often to the emperor.","src":["o2c"]},
+  {"id":"c2-15","t":2,"q":"Which work of Saint Justin, written around 155, describes Sunday worship?","a":"His First Apology, chapter 67.","src":["o2f"]},
+  {"id":"c2-16","t":3,"q":"Which second century bishop wrote the liturgical poem On Pascha?","a":"Saint Melito of Sardis.","src":["o2c"]}
+ ]},
+ {"id":"c2-s4","title":"Gnostics, Montanists, and Saint Irenaeus","text":"Gnosticism was a group of related heresies that turned Christianity into a spiritualistic, dualistic philosophy. Its great opponent was Saint Irenaeus, bishop of Lyons, who lived from about 130 to about 200 and wrote Against Heresies. He gave three marks of a true Church: the same rule of faith, bishops in unbroken succession from the Apostles, and the four Gospels alone. Around 160, in Asia Minor, Montanus and his prophetesses Priscilla and Maximilla announced a new age of the Spirit. Local councils condemned Montanism. The New Testament canon settled slowly. In 367 Saint Athanasius gave the first list of exactly the 27 books.","cards":[
+  {"id":"c2-17","t":1,"q":"What was Gnosticism?","a":"A group of related heresies that turned Christianity into a spiritualistic, dualistic philosophy.","src":["o2d"]},
+  {"id":"c2-18","t":1,"q":"Who wrote Against Heresies, and what did it refute?","a":"Saint Irenaeus of Lyons. It refuted Gnosticism.","src":["o2d"]},
+  {"id":"c2-19","t":1,"q":"What three marks of a true Church did Saint Irenaeus give?","a":"The same rule of faith, bishops in succession from the Apostles, and the four Gospels alone.","src":["o2d","oqa"]},
+  {"id":"c2-20","t":2,"q":"About when did Saint Irenaeus of Lyons live?","a":"From about 130 to about 200.","src":["o2d"]},
+  {"id":"c2-21","t":2,"q":"What was Montanism, and about when did it begin?","a":"A rigorist prophetic movement begun around 160 in Asia Minor by Montanus, who claimed a new age of the Spirit.","src":["o2d"]},
+  {"id":"c2-22","t":3,"q":"Name the two prophetesses of Montanus.","a":"Priscilla and Maximilla.","src":["o2d"]},
+  {"id":"c2-23","t":1,"q":"Who gave the earliest list of exactly the 27 New Testament books, and in what year?","a":"Saint Athanasius the Great, in 367.","src":["o2d"]}
+ ]},
+ {"id":"c2-s5","title":"The Pascha dispute","text":"The Christians of Asia Minor kept Pascha on the 14th day of the Jewish month of Nisan, whatever the day of the week. They were called Quartodecimans, which means Fourteeners. Around the year 190 Pope Victor the First, the first Latin speaking bishop of Rome, tried to excommunicate them. Saint Irenaeus and other bishops rebuked him, even though they agreed Pascha belongs on a Sunday. The story comes to us from Eusebius of Caesarea, the first great Church historian, who died around 340. Orthodox writers see here the first attempt by Rome to rule Churches beyond its own region.","cards":[
+  {"id":"c2-24","t":2,"q":"Who were the Quartodecimans?","a":"Christians of Asia Minor who kept Pascha on the 14th of Nisan, whatever the day of the week.","src":["o2e","b-eph190"]},
+  {"id":"c2-25","t":2,"q":"Which bishop of Rome tried to excommunicate the Quartodecimans around 190?","a":"Pope Victor the First.","src":["o2e","b-eph190"]},
+  {"id":"c2-26","t":2,"q":"How did Saint Irenaeus respond to Pope Victor?","a":"He rebuked him, even though he agreed that Pascha should fall on a Sunday.","src":["o2e"]},
+  {"id":"c2-27","t":2,"q":"Who is called the first great Church historian?","a":"Eusebius of Caesarea, who died around 340.","src":["o2e"]}
+ ]}
+]},
+{"id":"c3","n":3,"title":"Persecution, the Lapsed, and Alexandria","era":"Third century","segs":[
+ {"id":"c3-s1","title":"Waves of persecution","text":"The third century opened with persecution under Septimius Severus. Saints Perpetua and Felicitas died at Carthage, and in Alexandria the father of Origen was martyred. Then came decades of relative peace. The emperor Decius, who reigned from 249 to 251, launched an intense persecution across the whole Empire. In 257 Valerian began another, aimed at the higher clergy, in the false hope that the Church would die without its leaders. His son Gallienus ended it in 260. By the year 300 perhaps ten percent of the Empire was Christian, about six million people.","cards":[
+  {"id":"c3-01","t":1,"q":"Which emperor launched an intense empire-wide persecution in the middle of the third century?","a":"Decius, who reigned from 249 to 251.","src":["o3a","b-cyp"]},
+  {"id":"c3-02","t":2,"q":"In what year did Valerian's persecution begin, and whom did it target?","a":"In 257. It targeted the higher clergy.","src":["o3a"]},
+  {"id":"c3-03","t":2,"q":"Which emperor ended the general persecution in 260?","a":"Gallienus, the son of Valerian.","src":["o3a"]},
+  {"id":"c3-04","t":2,"q":"Which famous martyrs of Carthage died under Septimius Severus?","a":"Saints Perpetua and Felicitas.","src":["o3a"]},
+  {"id":"c3-05","t":3,"q":"By the year 300, about what share of the Empire may have been Christian?","a":"Perhaps ten percent, about six million people.","src":["o3a"]}
+ ]},
+ {"id":"c3-s2","title":"The lapsed and Saint Cyprian","text":"Persecution raised a hard question. What of the lapsed, those who denied Christ under threat and later wished to return? Most bishops allowed them back after sincere repentance and long penance. The Roman priest Novatian refused, and his rigorist schism lasted into the fifth century. The great voice for the unity of the Church was Saint Cyprian, bishop of Carthage, martyred in 258 under Valerian. He wrote On the Unity of the Church, and taught that no one can have God as Father who does not have the Church as mother. He resisted Pope Stephen of Rome, holding that no bishop is a bishop of bishops. Tertullian, the Father of Latin theology, joined the Montanists around 205.","cards":[
+  {"id":"c3-06","t":1,"q":"Who were the lapsed?","a":"Christians who denied Christ under threat of torture or death and later sought to return to the Church.","src":["o3b","oqa"]},
+  {"id":"c3-07","t":1,"q":"How did most bishops come to treat the lapsed?","a":"They allowed them back after sincere repentance and a long penance.","src":["o3b","b-cyp"]},
+  {"id":"c3-08","t":1,"q":"Who was Saint Cyprian, and when was he martyred?","a":"The bishop of Carthage. He was executed in 258, under the emperor Valerian.","src":["o3b","b-cyp"]},
+  {"id":"c3-09","t":2,"q":"What is Saint Cyprian's best known work?","a":"On the Unity of the Church.","src":["o3b","b-cyp"]},
+  {"id":"c3-10","t":2,"q":"Complete Saint Cyprian's teaching: no one can have God as Father who does not have...","a":"...the Church as mother.","src":["o3b"]},
+  {"id":"c3-11","t":2,"q":"What was Novatianism?","a":"A rigorist schism begun by the Roman priest Novatian after the Decian persecution, refusing mercy to the lapsed.","src":["o3b"]},
+  {"id":"c3-12","t":2,"q":"What did Saint Cyprian and Pope Stephen disagree about?","a":"Whether those baptized by heretics or schismatics had to be baptized again. Cyprian held that sacraments outside the Church were invalid.","src":["o3b","b-cyp"]},
+  {"id":"c3-13","t":2,"q":"Who is called the Father of Latin theology, and what movement did he join around 205?","a":"Tertullian of Carthage. He joined the Montanists.","src":["o3b"]},
+  {"id":"c3-14","t":3,"q":"Who became the first antipope in Rome, in 217?","a":"Hippolytus, who was later reconciled and is honored as a saint.","src":["o3b"]}
+ ]},
+ {"id":"c3-s3","title":"Origen and the school of Alexandria","text":"The first formal school of Christian theology rose in Alexandria. Pantaenus founded it around the year 180. Clement developed it, and Origen crowned it. Origen lived from about 185 to about 254. His Hexapla set the Old Testament in six columns, and On First Principles was the first systematic theology. He was tortured under Decius. Yet some of his ideas, drawn from Plato, fed later errors, and the Fifth Ecumenical Council condemned them in 553. In Rome, Sabellius taught that Father, Son, and Holy Spirit are merely names for the one God. At Antioch a council in 268 deposed Paul of Samosata.","cards":[
+  {"id":"c3-15","t":1,"q":"Who was Origen, and when did he live?","a":"The great teacher of the school of Alexandria, who lived from about 185 to about 254.","src":["o3c","b-ori"]},
+  {"id":"c3-16","t":2,"q":"Name Origen's two most famous works.","a":"The Hexapla, a six column edition of the Old Testament, and On First Principles.","src":["o3c","b-ori"]},
+  {"id":"c3-17","t":1,"q":"Which council condemned the errors of Origen, and in what year?","a":"The Fifth Ecumenical Council, in 553.","src":["o3c","o6b"]},
+  {"id":"c3-18","t":2,"q":"Who founded the theological school of Alexandria, and about when?","a":"Pantaenus, around the year 180.","src":["o3c"]},
+  {"id":"c3-19","t":2,"q":"What did Sabellius teach?","a":"That Father, Son, and Holy Spirit are merely names for the one God.","src":["o3b"]},
+  {"id":"c3-20","t":2,"q":"Which bishop of Antioch was deposed by a council in 268 for false teaching on the Trinity and Christ?","a":"Paul of Samosata.","src":["o3c"]},
+  {"id":"c3-21","t":3,"q":"In 272, which emperor did the Church ask to remove Paul of Samosata from his throne?","a":"Aurelian. It was the first such appeal to the civil power.","src":["o3c"]},
+  {"id":"c3-22","t":3,"q":"What is told about the city of Saint Gregory the Wonderworker?","a":"He found 17 Christians when he arrived as bishop, and left only 17 pagans when he died.","src":["o3c"]}
+ ]}
+]}
+]
