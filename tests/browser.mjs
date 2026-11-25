@@ -5,7 +5,10 @@ import { dirname, join } from 'node:path';
 import assert from 'node:assert/strict';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const url = 'file://' + join(root, 'dist/index.html');
+import { spawn } from 'node:child_process';
+const server = spawn('python3', ['-m', 'http.server', '8765', '--bind', '127.0.0.1', '--directory', join(root, 'dist')], { stdio: 'ignore' });
+await new Promise((r) => setTimeout(r, 800));
+const url = 'http://127.0.0.1:8765/index.html';
 const browser = await puppeteer.launch({ executablePath: '/usr/bin/google-chrome', headless: 'new', args: ['--no-sandbox', '--autoplay-policy=no-user-gesture-required', '--allow-file-access-from-files'] });
 const errors = [];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -16,7 +19,7 @@ async function open({ seed = null, fastAudio = true, noAudio = false, fakeSpeech
   await page.setViewport({ width: 390, height: 800, deviceScaleFactor: 2 });
   if (dark) await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: 'dark' }]);
   page.on('pageerror', (e) => errors.push('pageerror: ' + e.message));
-  page.on('console', (m) => { if (m.type() === 'error' && !/fonts\.g|net::ERR|favicon/.test(m.text())) errors.push('console: ' + m.text()); });
+  page.on('console', (m) => { if (m.type() === 'error' && !/fonts\.g|net::ERR|favicon|404/.test(m.text())) errors.push('console: ' + m.text()); });
   await page.evaluateOnNewDocument((seedJson, fast, none, fakeSp) => {
     if (seedJson && !sessionStorage.getItem('seeded')) { localStorage.setItem('listen-learn-v1', seedJson); sessionStorage.setItem('seeded', '1'); }
     window.__played = [];
@@ -24,8 +27,7 @@ async function open({ seed = null, fastAudio = true, noAudio = false, fakeSpeech
     if (fast) {
       // pretend every clip plays for 20 ms, so a whole session runs in seconds
       HTMLMediaElement.prototype.play = function () {
-        const el = this, src = el.getAttribute('src') || el.src || '';
-        const id = src.split('/').pop().replace('.mp3', '');
+        const el = this, id = (el.dataset && el.dataset.clip) || (el.src || '').split('/').pop().replace('.mp3', '');
         window.__played.push(id);
         clearTimeout(el.__t); el.__paused = false;
         el.__t = setTimeout(() => { if (!el.__paused) el.dispatchEvent(new Event('ended')); }, 20);
@@ -50,7 +52,7 @@ const clickText = (page, label) => page.evaluate((label) => {
   const b = [...document.querySelectorAll('button')].find((x) => x.innerText.trim().startsWith(label) && !x.disabled);
   if (b) b.click(); return !!b;
 }, label);
-const hasAudio = await (async () => { const p = await browser.newPage(); await p.goto(url); const n = await p.evaluate(() => (window.LL_AUDIO ? window.LL_AUDIO.ids.length : 0)); await p.close(); return n; })();
+const hasAudio = await (async () => { const p = await browser.newPage(); await p.goto(url); const n = await p.evaluate(() => (window.LL_AUDIO ? Object.keys(window.LL_AUDIO.clips).length : 0)); await p.close(); return n; })();
 
 /* 1. hands-free course with recorded clips */
 {
@@ -145,7 +147,7 @@ if (hasAudio) {
   const p = await page.evaluate(() => window.__played.slice());
   const qi = p.findIndex((x) => x.startsWith('q-'));
   assert.equal(p[qi], 'q-' + cut, 'resumes at the cut question: ' + p.slice(0, 6).join(','));
-  assert.ok(p.includes('x-resume') || !(await page.evaluate(() => window.LL_AUDIO.ids.includes('x-resume'))));
+  assert.ok(p.includes('x-resume') || !(await page.evaluate(() => !!window.LL_AUDIO.clips['x-resume'])));
   // now close the page without pressing End
   await sleep(300);
   await page.reload(); await sleep(300);
@@ -191,17 +193,19 @@ if (hasAudio) {
 /* 5. a real clip decodes and plays in Chrome */
 if (hasAudio) {
   const page = await open({ fastAudio: false });
+  // play two real clips cut from the packs, end to end, through the app's own player
   const r = await page.evaluate(() => new Promise((res) => {
-    const a = new Audio('audio/q-ap-01.mp3');
-    a.addEventListener('loadedmetadata', () => { a.play().then(() => setTimeout(() => res({ d: a.duration, t: a.currentTime }), 700), (e) => res({ err: String(e) })); });
-    a.addEventListener('error', () => res({ err: 'load error' }));
-    setTimeout(() => res({ err: 'timeout' }), 8000);
+    const t0 = Date.now(), P = window.LL.debug.player;
+    P.unlock();
+    const timer = setTimeout(() => res({ err: 'timeout' }), 15000);
+    P.playList(['x-questions', 'q-ap-01']).then((how) => { clearTimeout(timer); const el = P._el(); res({ how, ms: Date.now() - t0, dur: el.duration }); });
   }));
-  assert.ok(!r.err && r.d > 1 && r.t > 0.2, JSON.stringify(r));
+  assert.ok(!r.err && r.how === 'done' && r.ms > 3000 && r.dur > 2, JSON.stringify(r));
   await page.close();
-  console.log('ok   recorded clip plays (' + r.d.toFixed(1) + ' s)');
+  console.log('ok   real clips from the lesson packs play in order (' + (r.ms / 1000).toFixed(1) + ' s)');
 }
 
 await browser.close();
+server.kill();
 if (errors.length) { console.log('errors:\n' + errors.join('\n')); process.exit(1); }
 console.log('browser checks passed');

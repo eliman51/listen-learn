@@ -5,8 +5,8 @@
   var SUBJECTS = window.LL_SUBJECTS || [];
   var SUBJECT = SUBJECTS[0];
   var DECK = E.indexDeck(SUBJECT);
-  var AUDIO = window.LL_AUDIO || null; // recorded clips: { base, ids }
-  if (AUDIO) { AUDIO.set = {}; AUDIO.ids.forEach(function (id) { AUDIO.set[id] = 1; }); }
+  var AUDIO = window.LL_AUDIO || null; // recorded clips, bundled one pack per lesson: { packs, clips, unlock }
+  if (AUDIO) AUDIO.set = AUDIO.clips;
   var LS_KEY = 'listen-learn-v1';
   var main = document.getElementById('main');
 
@@ -265,12 +265,33 @@
       el.addEventListener('play', function () { if (!selfPause && Player.onOutsidePlay) Player.onOutsidePlay(); });
       return el;
     }
-    function src(id) { return AUDIO.base + id + '.mp3'; }
+    var packs = {}, urls = {};
+    function loadPack(name) {
+      if (!packs[name]) packs[name] = fetch(AUDIO.packs[name].f).then(function (r) { if (!r.ok) throw new Error('pack ' + r.status); return r.arrayBuffer(); })
+        .catch(function (e) { delete packs[name]; throw e; });
+      return packs[name];
+    }
+    function url(id) {
+      if (urls[id]) return Promise.resolve(urls[id]);
+      var c = AUDIO.clips[id];
+      if (!c) return Promise.reject(new Error('no clip ' + id));
+      return loadPack(c[0]).then(function (buf) {
+        urls[id] = URL.createObjectURL(new Blob([buf.slice(c[1], c[1] + c[2])], { type: 'audio/mpeg' }));
+        return urls[id];
+      });
+    }
+    function preload(names) {
+      // fetch packs one after another so the first one is ready soonest
+      var chain = Promise.resolve();
+      names.forEach(function (n) { if (AUDIO.packs[n]) chain = chain.then(function () { return loadPack(n).catch(function () {}); }); });
+      return chain;
+    }
     function unlock() {
       // must run inside a tap: starts the audio element so later clips may play without one
       if (!AUDIO || unlocked) return;
       var a = ensure(); unlocked = true;
-      try { a.src = src('z-1'); a.volume = 1; var p = a.play(); if (p && p.catch) p.catch(function () { unlocked = false; }); } catch (e) { unlocked = false; }
+      try { a.src = AUDIO.unlock; a.dataset.clip = 'unlock'; a.volume = 1; var p = a.play(); if (p && p.catch) p.catch(function () { unlocked = false; }); } catch (e) { unlocked = false; }
+      loadPack('common').catch(function () {});
     }
     function playList(ids) {
       var my = ++token, a = ensure(), i = 0;
@@ -281,13 +302,16 @@
           if (my !== token) return;
           if (i >= ids.length) return finish('done');
           var id = ids[i++];
-          a.onended = function () { if (my === token) step(); };
-          a.onerror = function () { if (my === token) step(); };
-          selfPause = true; a.src = src(id); selfPause = false;
-          a.defaultPlaybackRate = S.rate; a.playbackRate = S.rate;
-          if (Player.isHeld && Player.isHeld()) return; // paused: resume() starts it
-          var p = a.play();
-          if (p && p.catch) p.catch(function (err) { if (my === token && err && err.name === 'NotAllowedError' && Player.onBlocked) Player.onBlocked(); });
+          url(id).then(function (u) {
+            if (my !== token) return;
+            a.onended = function () { if (my === token) step(); };
+            a.onerror = function () { if (my === token) step(); };
+            selfPause = true; a.src = u; a.dataset.clip = id; selfPause = false;
+            a.defaultPlaybackRate = S.rate; a.playbackRate = S.rate;
+            if (Player.isHeld && Player.isHeld()) return; // paused: resume() starts it
+            var p = a.play();
+            if (p && p.catch) p.catch(function (err) { if (my === token && err && err.name === 'NotAllowedError' && Player.onBlocked) Player.onBlocked(); });
+          }, function () { if (my === token) { if (Player.onMissing) Player.onMissing(id); step(); } });
         }
         step();
       });
@@ -304,7 +328,7 @@
       var p = el.play(); if (p && p.catch) p.catch(function () {});
       selfPause = false;
     }
-    return { playList: playList, stop: stop, pause: pause, resume: resume, unlock: unlock, ready: function () { return !!AUDIO; }, _el: function () { return el; },
+    return { playList: playList, stop: stop, pause: pause, resume: resume, unlock: unlock, preload: preload, ready: function () { return !!AUDIO; }, _el: function () { return el; }, onMissing: null,
       onOutsidePause: null, onOutsidePlay: null, onBlocked: null, isHeld: null };
   })();
 
@@ -700,6 +724,15 @@
     Run = { ctx: { deck: DECK, store: STORE, session: session }, active: 0, last: now, paused: false, ended: false, phase: 'intro', item: null, rating: null, cmd: null, wait: null, resume: null, summary: null, text: '', hf: handsFree(o.mode), lastUnit: null,
       key: E.markKey(o.mode, session.units), opts: o, itemDone: true };
     if (Run.hf && !o.fresh) { var m = currentMark(o.mode, session.units); if (m) { E.restore(Run.ctx, m); Run.resumedFrom = markLine(m); } }
+    if (AUDIO) {
+      var want = ['common'];
+      (session.pending || []).forEach(function (it) { var u = it.unit || (it.seg && DECK.unitById[it.seg.unit]); if (u) want.push(u.id); });
+      (session.units || []).forEach(function (u) { want.push(u); });
+      if (Run.hf && !session.units) { if (!session.plan) session.plan = E.planLessons(Run.ctx, now); session.plan.forEach(function (u) { want.push(u); }); }
+      DECK.units.forEach(function (u) { if (E.lessonOf(STORE, u.id).lvl) want.push(u.id); });
+      if (!Run.hf) DECK.units.forEach(function (u) { want.push(u.id); });
+      Player.preload(want.filter(function (x, i, a) { return a.indexOf(x) === i; }));
+    }
     try { if (navigator.wakeLock && !AUDIO) navigator.wakeLock.request('screen').then(function (w) { wake = w; }, function () {}); } catch (e) {}
     document.body.classList.add('in-session');
     Media.bind(); Media.set(SUBJECT.short, 'Starting'); Media.state('playing');
